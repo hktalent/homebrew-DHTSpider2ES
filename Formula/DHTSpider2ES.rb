@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class DHTSpider2ES < Formula
+class dhtspider2es < Formula
     desc "Cross-platform An optimized DHT crawler capable of sending data to Elasticsearch"
     homepage "http://github.com/hktalent/dht"
     url "https://github.com/hktalent/dht/releases/download/V1.0.0/DHTSpider2Elasticsearch-mac.tar.gz"
@@ -9,6 +9,6 @@ class DHTSpider2ES < Formula
     version "V1.0.0"
   
     def install
-      bin.install "DHTSpider2ES"
+      bin.install "dhtspider2es"
     end
   end
